@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "enabledMcpjsonServers": ["ads-mcp"],
+  "permissions": {
+    "allow": [
+      "Edit(./nhat-ky/**)",
+      "mcp__ads-mcp__ads_list_accounts",
+      "mcp__ads-mcp__ads_get_report",
+      "mcp__ads-mcp__ads_list_objects",
+      "mcp__ads-mcp__ads_get_object",
+      "mcp__ads-mcp__ads_lookup",
+      "mcp__ads-mcp__ads_get_media_upload",
+      "mcp__ads-mcp__google_ads_run_gaql",
+      "mcp__ads-mcp__google_ads_get_campaign_targeting",
+      "mcp__ads-mcp__google_ads_list_assets",
+      "mcp__ads-mcp__openai_ads_get_conversions",
+      "mcp__ads-mcp__tiktok_gmv_max_shops",
+      "mcp__ads-mcp__tiktok_gmv_max_campaigns",
+      "mcp__ads-mcp__tiktok_gmv_max_report",
+      "mcp__ads-mcp__tiktok_gmv_max_products",
+      "mcp__ads-mcp__tiktok_gmv_max_identities",
+      "mcp__ads-mcp__tiktok_gmv_max_bid_recommend",
+      "mcp__ads-mcp__tiktok_messaging_assets",
+      "mcp__ads-mcp__meta_list_pages",
+      "mcp__ads-mcp__meta_list_page_posts",
+      "mcp__ads-mcp__meta_get_post",
+      "mcp__ads-mcp__meta_get_post_insights",
+      "mcp__ads-mcp__meta_get_page_insights",
+      "mcp__ads-mcp__drive_list_sources",
+      "mcp__ads-mcp__drive_list_files",
+      "mcp__ads-mcp__drive_sheet_read",
+      "mcp__ads-mcp__telegram_list_channels",
+      "mcp__ads-mcp__apify_list_tasks",
+      "mcp__ads-mcp__apify_get_run",
+      "mcp__ads-mcp__apify_get_results"
+    ],
+    "deny": [
+      "mcp__ads-mcp__ads_delete_object",
+      "mcp__ads-mcp__apify_run_actor",
+      "mcp__ads-mcp__tiktok_gmv_max_update",
+      "mcp__ads-mcp__tiktok_gmv_max_creatives",
+      "mcp__ads-mcp__tiktok_gmv_max_create"
+    ]
+  }
+}

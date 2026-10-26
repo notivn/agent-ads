@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ads-mcp": {
+      "type": "http",
+      "url": "${ADS_MCP_URL}"
+    }
+  }
+}

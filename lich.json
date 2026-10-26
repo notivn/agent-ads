@@ -1,0 +1,10 @@
+{
+  "mui_gio": "Asia/Ho_Chi_Minh",
+  "lich": [
+    { "quy_trinh": "bao-cao-sang", "gio": "08:00", "ngay": "hang-ngay" },
+    { "quy_trinh": "tuan-tra", "gio": "11:30", "ngay": "hang-ngay" },
+    { "quy_trinh": "tuan-tra", "gio": "15:30", "ngay": "hang-ngay" },
+    { "quy_trinh": "bao-cao-cuoi-ngay", "gio": "21:00", "ngay": "hang-ngay" },
+    { "quy_trinh": "bao-cao-tuan", "gio": "09:00", "ngay": "thu-hai" }
+  ]
+}

@@ -1,0 +1,20 @@
+# Dán khối này vào ~/.codex/config.toml (file CỦA RIÊNG MÁY BẠN — không commit vào repo).
+# Codex chưa hỗ trợ lấy URL từ biến môi trường, nên link MCP (có key) phải ghi thẳng ở đây.
+# Thay <domain> và <key> bằng link MCP lấy ở trang quản trị Ads MCP Simple → MCP → "Xem link".
+
+# AGENTS.md của phòng (~41 KiB) lớn hơn mức Codex tự nạp mặc định (32 KiB). Dòng này phải nằm
+# ở đầu file, TRƯỚC mọi bảng [..]. Đã có project_doc_max_bytes thì giữ giá trị lớn hơn.
+project_doc_max_bytes = 65536
+
+[mcp_servers.ads-mcp]
+url = "https://<domain>/mcp/<key>"
+tool_timeout_sec = 120
+startup_timeout_sec = 20
+# Lệnh ghi nguy hiểm không bao giờ cần cho phòng — chặn luôn ở phía client:
+disabled_tools = [
+  "ads_delete_object",
+  "apify_run_actor",
+  "tiktok_gmv_max_update",
+  "tiktok_gmv_max_creatives",
+  "tiktok_gmv_max_create",
+]

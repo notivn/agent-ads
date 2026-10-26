@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "ads-mcp": {
+      "serverUrl": "https://<domain>/mcp/<key>",
+      "disabledTools": [
+        "ads_delete_object",
+        "apify_run_actor",
+        "tiktok_gmv_max_update",
+        "tiktok_gmv_max_creatives",
+        "tiktok_gmv_max_create"
+      ]
+    }
+  }
+}
